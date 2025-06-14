@@ -32,7 +32,6 @@ public class CreateContactTest extends BaseClass {
 		ctt.getTitleTF().sendKeys(excel.readDataFromExcelFile("Contact", 1, 5));
 		ctt.getContactNameTF().sendKeys(excel.readDataFromExcelFile("Contact", 1, 6));
 		ctt.getMobileTF().sendKeys(excel.readNumericDataFromExcelFile("Contact", 1, 7));
-		ctt.getCreateContactSubmitBtn();
-		
+		ctt.getCreateContactSubmitBtn();	
 		
 	}}
