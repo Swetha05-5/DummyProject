@@ -29,5 +29,5 @@ public class CreateCampaignTest extends BaseClass {
 		cp.getCampaignNameTF().sendKeys(excel.readDataFromExcelFile("Campaign", 1, 2));
 		cp.getTargetSizeTF().sendKeys(excel.readNumericDataFromExcelFile("Campaign", 1, 3));
 		cp.getCreateCampaignSubmitBtn().click();
-
+			
 	}}
