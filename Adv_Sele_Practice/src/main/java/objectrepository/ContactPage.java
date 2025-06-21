@@ -21,5 +21,4 @@ public class ContactPage {
 			return Contacts;
 		}
 
-
 }
